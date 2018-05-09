@@ -179,6 +179,9 @@ public class Test {
         //c 分支修改
         private String c;
 
+        //c 分支第二次修改
+        private String c2;
+
         public User() {
         }
 
