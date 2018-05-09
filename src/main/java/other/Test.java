@@ -172,6 +172,9 @@ public class Test {
         //第二次修改
         private String p;
 
+        //c 分支修改
+        private String c;
+
         public User() {
         }
 
@@ -205,6 +208,14 @@ public class Test {
 
         public void setP(String p) {
             this.p = p;
+        }
+
+        public String getC() {
+            return c;
+        }
+
+        public void setC(String c) {
+            this.c = c;
         }
     }
 
