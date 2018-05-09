@@ -167,6 +167,9 @@ public class Test {
         private String name;
         private Integer age;
 
+        //第二次修改
+        private String p;
+
         public User() {
         }
 
@@ -184,6 +187,14 @@ public class Test {
 
         public void setAge(Integer age) {
             this.age = age;
+        }
+
+        public String getP() {
+            return p;
+        }
+
+        public void setP(String p) {
+            this.p = p;
         }
     }
 
