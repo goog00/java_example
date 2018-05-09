@@ -177,7 +177,12 @@ public class Test {
         private String a3;
 
 
+
+
         public User() {
+        }
+
+        public User(int a) {
         }
 
         public String getName() {
