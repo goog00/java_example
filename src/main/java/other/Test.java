@@ -167,6 +167,8 @@ public class Test {
         private String name;
         private Integer age;
 
+        private String k2;
+
         //第二次修改
         private String p;
 
@@ -176,6 +178,12 @@ public class Test {
         //a 分支第三次修改
         private String a3;
 
+
+        //c 分支修改
+        private String c;
+
+        //c 分支第二次修改
+        private String c2;
 
         public User() {
         }
@@ -196,12 +204,28 @@ public class Test {
             this.age = age;
         }
 
+        public String getK2() {
+            return k2;
+        }
+
+        public void setK2(String k2) {
+            this.k2 = k2;
+        }
+
         public String getP() {
             return p;
         }
 
         public void setP(String p) {
             this.p = p;
+        }
+
+        public String getC() {
+            return c;
+        }
+
+        public void setC(String c) {
+            this.c = c;
         }
 
         public String getA() {
