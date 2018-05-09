@@ -122,23 +122,69 @@ public class Test {
 //        System.out.println(kk);
 
 
-        String kl = null;
-        String kk = null;
+//        String kl = null;
+//        String kk = null;
+//
+//        if(kl == null || kk == null || kl.equals("22")){
+//            System.out.println("0000000000000000000");
+//        }
 
-        if(kl == null || kk == null || kl.equals("22")){
-            System.out.println("0000000000000000000");
-        }
+
+//        String kk = "11";
+//        System.out.println(kk.length());
 
 
+//        String k = "sun1234";
+//        String sun = "sun";
+//        System.out.println(k.substring(sun.length(),k.length()));
+//
+//        List<String> list = new LinkedList<>();
+//        list.add("1");
+//        list.add("2");
+//        list.add("3");
+//        list.add("4");
+//
+//        List<String> list2 = new LinkedList<>();
+//        list2.add("1");
+//        list2.add("2");
+//
+//        list.removeAll(null);
+//        System.out.println(list);
+//
 
+//        String k = "e|2|4";
+//        System.out.println(k.split("\\|")[1]);
+        int k = 1;
+        User user = new User();
+        user.setAge(k++);
+
+        System.out.println(user.getAge());
 
 
     }
 
-    class User{
+    static class User{
         private String name;
         private Integer age;
 
+        public User() {
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public Integer getAge() {
+            return age;
+        }
+
+        public void setAge(Integer age) {
+            this.age = age;
+        }
     }
 
     private static String testNull(Object object) {
@@ -193,5 +239,9 @@ public class Test {
         Pattern p = Pattern.compile(regex);
         Matcher matcher = p.matcher(uri);
         return matcher.find();
+    }
+
+    public static void tet(Boolean flag){
+        flag = false;
     }
 }

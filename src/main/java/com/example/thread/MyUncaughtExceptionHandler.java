@@ -16,5 +16,11 @@ public class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandl
     @Override
     public void uncaughtException(Thread t, Throwable e) {
         System.out.println("caught    "+e);
+        try {
+            throw new Exception(e);
+        } catch (Exception e1) {
+            e1.printStackTrace();
+            throw new RuntimeException("333");
+        }
     }
 }

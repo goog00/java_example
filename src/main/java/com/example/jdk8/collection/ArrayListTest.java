@@ -11,7 +11,7 @@ public class ArrayListTest {
 
     @Before
     public void init(){
-        
+
         arrayList = new ArrayList(10000);
     }
 

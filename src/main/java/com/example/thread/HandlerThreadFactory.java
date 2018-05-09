@@ -2,7 +2,7 @@ package com.example.thread;
 
 import java.util.concurrent.ThreadFactory;
 
-public class HanlderThreadFactory implements ThreadFactory {
+public class HandlerThreadFactory implements ThreadFactory {
     /**
      * Constructs a new {@code Thread}.  Implementations may also initialize
      * priority, name, daemon status, {@code ThreadGroup}, etc.
@@ -19,6 +19,6 @@ public class HanlderThreadFactory implements ThreadFactory {
         //设定线程工厂的异常处理器
         thread.setUncaughtExceptionHandler(new MyUncaughtExceptionHandler());
         System.out.println("eh" + thread.getUncaughtExceptionHandler());
-        return null;
+        return thread;
     }
 }

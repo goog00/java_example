@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 public class ThreadExceptionUncaughtExceptionHandler{
     public static void main(String[] args){
         try {
-            ExecutorService exec = Executors.newCachedThreadPool(new HanlderThreadFactory());
+            ExecutorService exec = Executors.newCachedThreadPool(new HandlerThreadFactory());
             exec.execute(new ExceptionThread());
         } catch (Exception e){
             System.out.println("11" + e);
