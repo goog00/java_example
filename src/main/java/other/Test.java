@@ -172,6 +172,10 @@ public class Test {
         //第二次修改
         private String p;
 
+        //a 分支再次修改
+        private String a;
+
+
         //c 分支修改
         private String c;
 
@@ -216,6 +220,14 @@ public class Test {
 
         public void setC(String c) {
             this.c = c;
+        }
+
+        public String getA() {
+            return a;
+        }
+
+        public void setA(String a) {
+            this.a = a;
         }
     }
 
