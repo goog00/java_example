@@ -173,6 +173,9 @@ public class Test {
         //a 分支再次修改
         private String a;
 
+        //a 分支第三次修改
+        private String a3;
+
 
         public User() {
         }
