@@ -172,6 +172,10 @@ public class Test {
         public User() {
         }
 
+        public User(String k){
+
+        }
+
         public String getName() {
             return name;
         }
